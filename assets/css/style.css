@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+   height: 70px;
+    z-index: 1;
+}
+.nav-link{
+    text-decoration: none;
+    color: #fff;  
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.hero img{
+    width: 1190px;
+
+}
+.thumbnail-container img{
+     border: none;
+-moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.thumbnail-container img:hover{
+    border: none;
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  color: #fff;
+  background-color: #C94F24; 
+  opacity: 0.8;
+}
+
+
+button:hover{
+    cursor: pointer;
+   transform: scale(1.2);
+  
+}
+
+
+
+   
+
